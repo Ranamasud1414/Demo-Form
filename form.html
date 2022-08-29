@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment_form</form></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+   <form action="">
+    <h1>Payment form</h1>
+    <p>Name <input type="text" name="name" required placeholder="Enter Your name" ></p>
+    <fieldset>
+        <legend>Gender</legend>
+    <p>
+        
+        Male <input type="radio" name="gender" id="male" required>
+        Female <input type="radio" name="gender" id="female" required>
+    </p>
+    </fieldset>
+    <p class="add">Address <textarea name="address" id="address" cols="60" rows="5" placeholder="Enter your parmanent Address"></textarea></p>
+    <p>Contact <input type="number" name="number" id="number" placeholder="+91 77 5456 56"></p>
+    <p>Email <input type="email" name="email" id="email" placeholder="ranamesud@123gmail.com"></p>
+
+    <hr>
+    <h1>Payment</h1>
+    <p>Cardnumber <input type="number" name="card number" id="cardnumber"></p>
+    <p>Cardtype
+        <select name="card type">
+           <option value="">---select card type---</option>
+           <option value="visa">Visa</option>
+           <option value="master">Master</option>
+           <option value="rupee">Rupee</option>
+        </select>
+    </p>
+    <p>Expiry date <input type="date" name="date" id="date" placeholder="29/08"></p>
+    <p>CVV <input type="password" name="cvv" id="cvv" placeholder="254"></p>
+    <!-- <input type="submit" value="paynow"> -->
+    <button class="glow-on-hover" type="button">Pay now</button>
+
+   </form>
+</div>
+
+
+    
+</body>
+</html>
